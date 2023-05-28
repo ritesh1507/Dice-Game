@@ -1,0 +1,33 @@
+a{
+    color:#4ECCA3
+}
+  
+.btn{
+    background-color:aliceblue ;
+    color: #232931;
+    border-radius: 15px;
+    width: 10em;
+    height:3em;
+    border-color:cadetblue;
+    border-width: 4px;
+    border-style: solid;
+    font-size: 16px;
+    font-style:oblique;
+}
+:hover.btn{
+    background-color:lightcyan;
+    border-color: lightskyblue;
+}
+
+body{
+    margin-top: 15%;
+    background-color:#393E46;
+    text-align: center;
+}
+
+h1{
+    text-shadow: 5px 0 black;
+    color:#4ECCA3 ;
+    font-size: 36px;
+    font-family: cursive;
+}

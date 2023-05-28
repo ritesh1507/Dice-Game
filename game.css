@@ -1,0 +1,71 @@
+.container {
+  display: flexbox;
+  width: 100%;
+  margin-top: -2rem;
+  text-align: center;
+}
+
+.dice {
+  display: inline-block;
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  text-shadow: .25rem 0 #232931;
+  font-size: 4rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+.img1{
+  max-width:50%;
+}
+
+.img2{
+  max-width: 50%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+.trophy{
+  position: relative;
+  padding-left: .5rem;
+  top: 2rem;
+  max-height: 2rem;
+  width:2rem;
+  display: none;
+}
+
+.lost{
+  position: relative;
+  padding-left: 1rem;
+  top: 2.5rem;
+  max-height: 2.5rem;
+  display: none;
+}
+
+.visibility{
+  display: inline;
+}
+
+.player{
+  margin-bottom: -1rem;
+  padding-left: 35%;
+  display: flex;
+}
+
