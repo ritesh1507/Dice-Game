@@ -45,7 +45,6 @@ footer {
 .trophy{
   position: relative;
   padding-left: .5rem;
-  top: 2rem;
   max-height: 2rem;
   width:2rem;
   display: none;
@@ -54,7 +53,6 @@ footer {
 .lost{
   position: relative;
   padding-left: 1rem;
-  top: 2.5rem;
   max-height: 2.5rem;
   display: none;
 }
@@ -64,8 +62,9 @@ footer {
 }
 
 .player{
-  margin-bottom: -1rem;
-  padding-left: 35%;
   display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-height: fit-content;
 }
-
